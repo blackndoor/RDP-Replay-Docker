@@ -41,12 +41,14 @@ Usage: rdp_replay  <options>
     --rdprd               Display RDPDR channel requests
     --sw                  Use SW_GDI for rendering (not recommended)
 ```
+
 Basic exemple:
+
 ```bash
-$ ./rdp-replay.sh -r /mnt/capture.pcap -p /mnt/certificate.pem -t 49209 --no_cksum --show_keys -o /mnt/video.avi --save_clipboard
+$ ./rdp-replay.sh -r capture.pcap -p certificate.pem -t 49209 --no_cksum --show_keys -o video.avi --save_clipboard
 ```
 
 # Thanks
 
-* https://github.com/ctxis
-* franb
+* [ctxis](https://github.com/ctxis)
+* [FBoisson](https://github.com/FBoisson)
